@@ -1,6 +1,6 @@
 # Scrape public comments from FCC ECFS
 
-Scrape Federal Communications Commssion (FCC) Electronic Comments Filing System (ECFS) via [https://publicapi.fcc.gov/ecfs/filings](https://publicapi.fcc.gov/ecfs/filings).
+Scrape Federal Communications Commssion (FCC) Express Comments Filing System (ECFS) via [https://publicapi.fcc.gov/ecfs/filings](https://publicapi.fcc.gov/ecfs/filings).
 
 **Note**: You will require a `data.gov` API key to use this script.  You can sign up for a key at [https://api.data.gov/signup](https://api.data.gov/signup).
 

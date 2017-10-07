@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Scrape Federal Communications Commssion (FCC) Electronic Comments Filing
+"""Scrape Federal Communications Commssion (FCC) Express Comments Filing
 System (ECFS) via https://publicapi.fcc.gov/ecfs/filings"""
 
 import json
