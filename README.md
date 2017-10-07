@@ -46,7 +46,7 @@ Scrape Federal Communications Commssion (FCC) Electronic Comments Filing System 
 
 ## Example
 
-    ./scrape_fcc_ecfs.py -p 17-108 -l 1 -m 1 | jq .
+    $ ./scrape_fcc_ecfs.py -p 17-108 -l 1 -m 1 | jq .
     {
       "confirmation_number": "20170427165805575",
       "submissiontype": {
