@@ -38,7 +38,7 @@ def get_filings(proceedings_name, api_key, limit=25, offset=0, timeout=3600):
         response = requests.get(URL, params=params)
     if response.status_code == 200:
         try:
-            yield from response.json().get('filings', [])
+            yield from response.json().get('filing', [])
         except Exception:
             raise StopIteration
     else:
